@@ -1,1 +1,2 @@
-import CeaLemma.Foundation.Real
+import CeaLemma.Foundation.TrialSpace
+import CeaLemma.Examples.RealLine
