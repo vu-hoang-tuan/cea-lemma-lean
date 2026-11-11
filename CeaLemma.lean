@@ -1,2 +1,2 @@
-import CeaLemma.Bounds.Energy
+import CeaLemma.Cea
 import CeaLemma.Examples.RealLine
