@@ -47,15 +47,6 @@ def realAbs : Cea.VectorNorm realLine where
   norm_nonneg := by
     intro x
     exact abs_nonneg x
-  norm_eq_zero_iff := by
-    intro x
-    exact abs_eq_zero
-  norm_smul := by
-    intro a x
-    exact abs_mul a x
-  norm_triangle := by
-    intro x y
-    exact abs_add_le x y
 
 -- This checks a concrete realization of the abstract vector-space structure.
 #check realLine
